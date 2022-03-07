@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/pybank">pybank</a></h1>
+<h1><a href="https://2kabhishek.github.io/pybank">PyBank</a></h1>
 
 <a href="https://github.com/2KAbhishek/pybank/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/pybank?style=plastic&color=white&label=License"> </a>
@@ -23,86 +23,68 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
-
-<figure>
-  <img src= "https://raw.githubusercontent.com/2KAbhishek/pybank/main/images/screenshot.png" alt="pybank Demo" style="width:100%">
-  <br/>
-  <figcaption>pybank screenshot</figcaption>
-</figure>
-
-</div>
+<h3>Data Analysis for the silliest Bank 💰🏦</h3>
 
 ## What is this
 
-pybank is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+PyBank is a simple data analysis project that analyzes a csv file to find some metrics.
 
 ## Inspiration
 
-pybank was inspired by `<reason/idea>`.
+Wanted to test out Azure notebooks and it's various features.
+
+### Imaginary Problem Statement
+
+Welcome to 2KBank, where we maintain the simplest data ever with just `Month` and `Profit/Losses` columns.
+
+Our goal in this project is to find out the following and export it to a text file.
+
+- The total number of months included in the dataset.
+- The net total amount of Profit/Losses over the entire period.
+- The average of the changes in Profit/Losses over the entire period.
+- The greatest increase in profits (date and amount) over the entire period.
+- The greatest decrease in losses (date and amount) over the entire period.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `python`
 
-## Getting pybank
+## Getting PyBank
 
-To install pybank, follow these steps:
+To get PyBank, follow these steps:
 
 ```bash
 git clone https://github.com/2kabhishek/pybank
 cd pybank
-<install_command>
 ```
 
 ## Using pybank
 
 ```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
+python pybank.py
 ```
+
+This generates the report in `gen/report.txt` file, compare it with `data/budget_data.csv` to draw some insights.
 
 ## How it was built
 
-pybank was built using `<tech/library>`
+pybank was built using `python` and `pandas`
 
 ## Challenges faced
 
-While building pybank the main challenges were `<issue/difficulty>`
+- Setting up Azure ML Studio
 
 ## What I learned
 
-While building pybank I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+- Discovered the `diff()` method for pandas dataframe, pretty useful
 
 Hit the ⭐ button if you found this useful.
 
 ## More Info
+
+Also see [PyRamen](https://github.com/2kabhishek/pyramen)
 
 <div align="center">
 
