@@ -24,6 +24,8 @@
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
 <h3>Data Analysis for the silliest Bank 💰🏦</h3>
+  
+ </div>
 
 ## What is this
 
